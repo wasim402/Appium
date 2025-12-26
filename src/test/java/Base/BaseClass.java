@@ -23,7 +23,10 @@ public class BaseClass {
 
         driver = new AndroidDriver(
                 new URL("http://127.0.0.1:4723"), options);
+            System.out.println("Setup is done");
     }
+
+
 
     @AfterMethod
     public void tearDown() {

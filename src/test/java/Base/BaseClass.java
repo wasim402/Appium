@@ -19,6 +19,7 @@ public class BaseClass {
                 .setAutomationName("UiAutomator2")
                 .setAppPackage("com.android.settings")
                 .setAppActivity(".Settings");
+        System.out.println("Capabilities are added for setting apk");
 
         driver = new AndroidDriver(
                 new URL("http://127.0.0.1:4723"), options);
